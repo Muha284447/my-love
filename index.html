@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Love, Aliya</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="petals" id="petals"></div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">A little corner of the internet, just for you</p>
+    <h1 class="script-title">My Love</h1>
+    <h2 class="sub-title">Aliya</h2>
+    <p class="hero-line">Everything here was made with one thought in my head: you.</p>
+    <a href="#reasons" class="scroll-cue">
+      <span>scroll down</span>
+      <span class="arrow">&#8595;</span>
+    </a>
+  </div>
+</section>
+
+<!-- REASONS -->
+<section class="reasons" id="reasons">
+  <p class="section-label">one of many</p>
+  <h2 class="section-title">Reasons I Love You</h2>
+  <p class="section-intro">There isn't a number big enough for this list. Here's one reason — press the button for another, and another, for as long as you want.</p>
+
+  <div class="reason-card" id="reasonCard">
+    <span class="reason-index" id="reasonIndex">Reason #1</span>
+    <p class="reason-text" id="reasonText"></p>
+  </div>
+
+  <button class="btn-primary" id="nextReason">Give me another reason</button>
+</section>
+
+<!-- LETTER / ENVELOPE -->
+<section class="letter-section" id="letter">
+  <p class="section-label">for your eyes only</p>
+  <h2 class="section-title">A Letter For You</h2>
+  <p class="section-intro">I sealed this one properly. Open it whenever you're ready.</p>
+
+  <div class="envelope-wrap">
+    <div class="envelope" id="envelope">
+      <div class="envelope-back"></div>
+      <div class="envelope-letter" id="envelopeLetter">
+        <p>My love,</p>
+        <p>If you're reading this, it means you found the little world I built for you — pixel by pixel, the same way I've tried to build a life around loving you well.</p>
+        <p>I don't know how to compress everything I feel into words, but I'll try. You are the calm at the end of my longest days and the reason ordinary Tuesdays feel like something worth remembering. You make me want to be steadier, kinder, and braver than I already am — not because you ask me to, but because that's what loving you naturally pulls out of me.</p>
+        <p>I love the way you laugh at your own jokes before you even finish telling them. I love how seriously you take the people you care about, and how lucky I feel to be one of them. I love that being near you makes even quiet, uneventful moments feel like they matter.</p>
+        <p>So here is a small, imperfect website trying to say a very big, very simple thing: you are the most important person in my life, and I don't say that lightly. Thank you for choosing me, again and again, on the ordinary days as much as the extraordinary ones.</p>
+        <p class="signature">Yours, always.</p>
+      </div>
+      <div class="envelope-flap" id="envelopeFlap"></div>
+      <div class="envelope-front" id="envelopeFront">
+        <span class="wax-seal">&#10084;</span>
+        <span class="envelope-caption">Click to open</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROMISES -->
+<section class="promises" id="promises">
+  <p class="section-label">what I owe you</p>
+  <h2 class="section-title">Promises</h2>
+  <p class="section-intro">Some things I want to keep saying, out loud, forever.</p>
+
+  <ul class="promise-list" id="promiseList">
+    <li class="promise-item"><span class="promise-mark">&#10084;</span>To choose you, every single day, not just on the easy ones.</li>
+    <li class="promise-item"><span class="promise-mark">&#10084;</span>To listen first, and really hear you, even when it's hard.</li>
+    <li class="promise-item"><span class="promise-mark">&#10084;</span>To keep making you laugh, especially on your worst days.</li>
+    <li class="promise-item"><span class="promise-mark">&#10084;</span>To hold your hand through anything — the boring parts and the big ones.</li>
+    <li class="promise-item"><span class="promise-mark">&#10084;</span>To never let you forget how important you are to me.</li>
+    <li class="promise-item"><span class="promise-mark">&#10084;</span>To love you a little more tomorrow than I do today, somehow.</li>
+  </ul>
+</section>
+
+<!-- LOVE METER -->
+<section class="love-meter" id="loveMeter">
+  <p class="section-label">just for fun</p>
+  <h2 class="section-title">How Much Do I Love You?</h2>
+  <p class="section-intro">Try to measure it. Go on, drag the slider.</p>
+
+  <div class="meter-wrap">
+    <input type="range" min="0" max="100" value="50" class="meter-slider" id="meterSlider">
+    <div class="meter-track">
+      <div class="meter-fill" id="meterFill"></div>
+    </div>
+    <p class="meter-readout" id="meterReadout">50%</p>
+  </div>
+</section>
+
+<!-- FINALE -->
+<section class="finale" id="finale">
+  <p class="section-label">the whole point of this website</p>
+  <h1 class="finale-title" id="finaleTitle">I love you<br>sooooo much.</h1>
+  <p class="finale-line">More than this website could ever show you. More than I sometimes know how to say. Just — so, so much, Aliya.</p>
+</section>
+
+<footer class="site-footer">
+  <p>Made with love, for the love of my life.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
